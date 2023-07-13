@@ -31,6 +31,7 @@ function IterationComponent() {
 
   const newArr = list.map((item) => (<option key={item.id}>{item.title}</option>));
   
+  
 
     return(
       <div>
